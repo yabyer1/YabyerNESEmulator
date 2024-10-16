@@ -1,0 +1,3 @@
+/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles/emulator.dir
+/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles/edit_cache.dir
+/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles/rebuild_cache.dir
