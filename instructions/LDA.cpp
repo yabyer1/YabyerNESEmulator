@@ -47,7 +47,7 @@ void LDA_Absolute(){ //Opcode $AD, bytes 3 cycles 4
 }
 void LDA_X_Absolute(){ //Opcode $BD, bytes 3 cycles 4+
     uint16_t address = memory[pc++] | (memory[pc++] << 8); // address is stored as the next 16 bits
-    uint16_t final_address (address + x); //add x with address to get final address
+    uint16_t final_address = (address + x); //add x with address to get final address
     a = memory[final_address];
     LDAFlags();
     cycles += 4;
@@ -58,7 +58,7 @@ void LDA_X_Absolute(){ //Opcode $BD, bytes 3 cycles 4+
 }
 void LDA_Y_Absolute(){ //Opcode $B9, bytes 3 cycles 4+
     uint16_t address = memory[pc++] | (memory[pc++] << 8); // address is stored as the next 16 bits
-    uint16_t final_address (address + y); //add x with address to get final address
+    uint16_t final_address =  (address + y); //add x with address to get final address
     a = memory[final_address];
     LDAFlags();
     cycles += 4;

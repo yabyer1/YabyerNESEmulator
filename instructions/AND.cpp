@@ -1,96 +1,78 @@
 #include <cstdint>
-#include "../CPU.h"  // Correct path to the cpu.h header file
-
-//ADC
-void ADC(uint8_t operand){
-     uint16_t temp = operand + a + (p & 0x01); // Add with carry
-    a = temp & 0xFF; // store lower 8
-    if(a == 0){
+#include "../CPU.h"  
+void AND(uint8_t operand){ // A, Z, N = A &M
+ a = a & operand;
+  if(a == 0){
         p |= 0x02; // set Zero Flag if a == 0
     }
     else {
         p &= ~0x02;
     }
-
-    if(a & 0x80){
+      if(a & 0x80){
         p |= 0x80; // set Negative Flag if bit 7 of 'a' is set
     }
     else{
         p &= ~0x80;
     }
-    if(temp >  0xFF){ //check for a carry
-        p |= 0x01; //set carry flag
-    }else{
-        p &= ~0x01;
-    }
-    //check signed overflow
-    //check if the sign of result is wrong
-    if(((a ^ operand) & 0x80) == 0 && ( (a ^ (temp & 0xFF)) & 0x80) != 0){
-        p |= 0x40; //set overflow flag
-    }
-    else{
-        p &= ~0x40;
-    }
 }
-void ADC_Immediate() {  // Opcode $69
+void AND_Immediate(){ // $29
     uint8_t operand = memory[pc++];
-    ADC(operand);
-    cycles += 2;
+    AND(operand);
+    cycles +=2;
 }
-
-void ADC_ZeroPage() {  // Opcode $65
+void AND_ZeroPage() {  // Opcode $25
     uint8_t address = memory[pc++];
     uint8_t operand = memory[address];
-    ADC(operand);
+    AND(operand);
     cycles += 3;
 }
 
-void ADC_ZeroPageX() {  // Opcode $75
+void AND_ZeroPageX() {  // Opcode $35
     uint8_t address = (memory[pc++] + x) & 0xFF;
     uint8_t operand = memory[address];
-    ADC(operand);
+    AND(operand);
     cycles += 4;
 }
 
-void ADC_Absolute() {  // Opcode $6D
+void AND_Absolute() {  // Opcode $2D
     uint16_t address = memory[pc++] | (memory[pc++] << 8);
     uint8_t operand = memory[address];
-    ADC(operand);
+    AND(operand);
     cycles += 4;
 }
 
-void ADC_AbsoluteX() {  // Opcode $7D
+void ADC_AbsoluteX() {  // Opcode $3D
     uint16_t base = memory[pc++] | (memory[pc++] << 8);
     uint16_t address = base + x;
     uint8_t operand = memory[address];
-    ADC(operand);
+    AND(operand);
     cycles += 4;
     if ((base & 0xFF00) != (address & 0xFF00)) cycles += 1;  // Page crossing
 }
 
-void ADC_AbsoluteY() {  // Opcode $79
+void AND_AbsoluteY() {  // Opcode $39
     uint16_t base = memory[pc++] | (memory[pc++] << 8);
     uint16_t address = base + y;
     uint8_t operand = memory[address];
-    ADC(operand);
+    AND(operand);
     cycles += 4;
     if ((base & 0xFF00) != (address & 0xFF00)) cycles += 1;  // Page crossing
 }
 
-void ADC_IndirectX() {  // Opcode $61
+void AND_IndirectX() {  // Opcode $21
     uint8_t zpa = (memory[pc++] + x) & 0xFF;
     uint16_t address = memory[zpa] | (memory[zpa + 1] << 8);
     uint8_t operand = memory[address];
-    ADC(operand);
+    AND(operand);
     cycles += 6;
 }
 
-void ADC_IndirectY() {  // Opcode $71
+void AND_IndirectY() {  // Opcode $31
     uint8_t zpa = memory[pc++];
     uint16_t base = memory[zpa] | (memory[zpa + 1] << 8);
     uint16_t address = base + y;
     uint8_t operand = memory[address];
-    ADC(operand);
+    AND(operand);
     cycles += 5;
     if ((base & 0xFF00) != (address & 0xFF00)) cycles += 1;  // Page crossing
 }
