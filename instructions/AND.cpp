@@ -41,7 +41,7 @@ void AND_Absolute() {  // Opcode $2D
     cycles += 4;
 }
 
-void ADC_AbsoluteX() {  // Opcode $3D
+void AND_AbsoluteX() {  // Opcode $3D
     uint16_t base = memory[pc++] | (memory[pc++] << 8);
     uint16_t address = base + x;
     uint8_t operand = memory[address];

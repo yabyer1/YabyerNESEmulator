@@ -4,7 +4,9 @@ project(NES_Emulator)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(emulator
-    cpu.cpp
+    CPU.cpp
     instructions/LDA.cpp
     instructions/ADC.cpp
+    instructions/AND.cpp
+    instructions/ASL.cpp
 )
