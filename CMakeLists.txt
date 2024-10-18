@@ -9,4 +9,8 @@ add_executable(emulator
     instructions/ADC.cpp
     instructions/AND.cpp
     instructions/ASL.cpp
+    instructions/BCC.cpp
+    instructions/BCS.cpp
+    instructions/BEQ.cpp
+    instructions/BIT.cpp
 )
