@@ -13,4 +13,6 @@ add_executable(emulator
     instructions/BCS.cpp
     instructions/BEQ.cpp
     instructions/BIT.cpp
+    instructions/BNE.cpp
+    instructions/BPL.cpp
 )
