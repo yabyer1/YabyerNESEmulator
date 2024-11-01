@@ -129,29 +129,29 @@ emulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/build
 .PHONY : emulator/fast
 
-cpu.o: cpu.cpp.o
-.PHONY : cpu.o
+CPU.o: CPU.cpp.o
+.PHONY : CPU.o
 
 # target to build an object file
-cpu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/cpu.cpp.o
-.PHONY : cpu.cpp.o
+CPU.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/CPU.cpp.o
+.PHONY : CPU.cpp.o
 
-cpu.i: cpu.cpp.i
-.PHONY : cpu.i
+CPU.i: CPU.cpp.i
+.PHONY : CPU.i
 
 # target to preprocess a source file
-cpu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/cpu.cpp.i
-.PHONY : cpu.cpp.i
+CPU.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/CPU.cpp.i
+.PHONY : CPU.cpp.i
 
-cpu.s: cpu.cpp.s
-.PHONY : cpu.s
+CPU.s: CPU.cpp.s
+.PHONY : CPU.s
 
 # target to generate assembly for a file
-cpu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/cpu.cpp.s
-.PHONY : cpu.cpp.s
+CPU.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/CPU.cpp.s
+.PHONY : CPU.cpp.s
 
 instructions/ADC.o: instructions/ADC.cpp.o
 .PHONY : instructions/ADC.o
@@ -177,6 +177,678 @@ instructions/ADC.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ADC.cpp.s
 .PHONY : instructions/ADC.cpp.s
 
+instructions/AND.o: instructions/AND.cpp.o
+.PHONY : instructions/AND.o
+
+# target to build an object file
+instructions/AND.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/AND.cpp.o
+.PHONY : instructions/AND.cpp.o
+
+instructions/AND.i: instructions/AND.cpp.i
+.PHONY : instructions/AND.i
+
+# target to preprocess a source file
+instructions/AND.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/AND.cpp.i
+.PHONY : instructions/AND.cpp.i
+
+instructions/AND.s: instructions/AND.cpp.s
+.PHONY : instructions/AND.s
+
+# target to generate assembly for a file
+instructions/AND.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/AND.cpp.s
+.PHONY : instructions/AND.cpp.s
+
+instructions/ASL.o: instructions/ASL.cpp.o
+.PHONY : instructions/ASL.o
+
+# target to build an object file
+instructions/ASL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ASL.cpp.o
+.PHONY : instructions/ASL.cpp.o
+
+instructions/ASL.i: instructions/ASL.cpp.i
+.PHONY : instructions/ASL.i
+
+# target to preprocess a source file
+instructions/ASL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ASL.cpp.i
+.PHONY : instructions/ASL.cpp.i
+
+instructions/ASL.s: instructions/ASL.cpp.s
+.PHONY : instructions/ASL.s
+
+# target to generate assembly for a file
+instructions/ASL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ASL.cpp.s
+.PHONY : instructions/ASL.cpp.s
+
+instructions/BCC.o: instructions/BCC.cpp.o
+.PHONY : instructions/BCC.o
+
+# target to build an object file
+instructions/BCC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BCC.cpp.o
+.PHONY : instructions/BCC.cpp.o
+
+instructions/BCC.i: instructions/BCC.cpp.i
+.PHONY : instructions/BCC.i
+
+# target to preprocess a source file
+instructions/BCC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BCC.cpp.i
+.PHONY : instructions/BCC.cpp.i
+
+instructions/BCC.s: instructions/BCC.cpp.s
+.PHONY : instructions/BCC.s
+
+# target to generate assembly for a file
+instructions/BCC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BCC.cpp.s
+.PHONY : instructions/BCC.cpp.s
+
+instructions/BCS.o: instructions/BCS.cpp.o
+.PHONY : instructions/BCS.o
+
+# target to build an object file
+instructions/BCS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BCS.cpp.o
+.PHONY : instructions/BCS.cpp.o
+
+instructions/BCS.i: instructions/BCS.cpp.i
+.PHONY : instructions/BCS.i
+
+# target to preprocess a source file
+instructions/BCS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BCS.cpp.i
+.PHONY : instructions/BCS.cpp.i
+
+instructions/BCS.s: instructions/BCS.cpp.s
+.PHONY : instructions/BCS.s
+
+# target to generate assembly for a file
+instructions/BCS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BCS.cpp.s
+.PHONY : instructions/BCS.cpp.s
+
+instructions/BEQ.o: instructions/BEQ.cpp.o
+.PHONY : instructions/BEQ.o
+
+# target to build an object file
+instructions/BEQ.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BEQ.cpp.o
+.PHONY : instructions/BEQ.cpp.o
+
+instructions/BEQ.i: instructions/BEQ.cpp.i
+.PHONY : instructions/BEQ.i
+
+# target to preprocess a source file
+instructions/BEQ.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BEQ.cpp.i
+.PHONY : instructions/BEQ.cpp.i
+
+instructions/BEQ.s: instructions/BEQ.cpp.s
+.PHONY : instructions/BEQ.s
+
+# target to generate assembly for a file
+instructions/BEQ.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BEQ.cpp.s
+.PHONY : instructions/BEQ.cpp.s
+
+instructions/BIT.o: instructions/BIT.cpp.o
+.PHONY : instructions/BIT.o
+
+# target to build an object file
+instructions/BIT.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BIT.cpp.o
+.PHONY : instructions/BIT.cpp.o
+
+instructions/BIT.i: instructions/BIT.cpp.i
+.PHONY : instructions/BIT.i
+
+# target to preprocess a source file
+instructions/BIT.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BIT.cpp.i
+.PHONY : instructions/BIT.cpp.i
+
+instructions/BIT.s: instructions/BIT.cpp.s
+.PHONY : instructions/BIT.s
+
+# target to generate assembly for a file
+instructions/BIT.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BIT.cpp.s
+.PHONY : instructions/BIT.cpp.s
+
+instructions/BMI.o: instructions/BMI.cpp.o
+.PHONY : instructions/BMI.o
+
+# target to build an object file
+instructions/BMI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BMI.cpp.o
+.PHONY : instructions/BMI.cpp.o
+
+instructions/BMI.i: instructions/BMI.cpp.i
+.PHONY : instructions/BMI.i
+
+# target to preprocess a source file
+instructions/BMI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BMI.cpp.i
+.PHONY : instructions/BMI.cpp.i
+
+instructions/BMI.s: instructions/BMI.cpp.s
+.PHONY : instructions/BMI.s
+
+# target to generate assembly for a file
+instructions/BMI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BMI.cpp.s
+.PHONY : instructions/BMI.cpp.s
+
+instructions/BNE.o: instructions/BNE.cpp.o
+.PHONY : instructions/BNE.o
+
+# target to build an object file
+instructions/BNE.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BNE.cpp.o
+.PHONY : instructions/BNE.cpp.o
+
+instructions/BNE.i: instructions/BNE.cpp.i
+.PHONY : instructions/BNE.i
+
+# target to preprocess a source file
+instructions/BNE.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BNE.cpp.i
+.PHONY : instructions/BNE.cpp.i
+
+instructions/BNE.s: instructions/BNE.cpp.s
+.PHONY : instructions/BNE.s
+
+# target to generate assembly for a file
+instructions/BNE.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BNE.cpp.s
+.PHONY : instructions/BNE.cpp.s
+
+instructions/BPL.o: instructions/BPL.cpp.o
+.PHONY : instructions/BPL.o
+
+# target to build an object file
+instructions/BPL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BPL.cpp.o
+.PHONY : instructions/BPL.cpp.o
+
+instructions/BPL.i: instructions/BPL.cpp.i
+.PHONY : instructions/BPL.i
+
+# target to preprocess a source file
+instructions/BPL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BPL.cpp.i
+.PHONY : instructions/BPL.cpp.i
+
+instructions/BPL.s: instructions/BPL.cpp.s
+.PHONY : instructions/BPL.s
+
+# target to generate assembly for a file
+instructions/BPL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BPL.cpp.s
+.PHONY : instructions/BPL.cpp.s
+
+instructions/BRK.o: instructions/BRK.cpp.o
+.PHONY : instructions/BRK.o
+
+# target to build an object file
+instructions/BRK.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BRK.cpp.o
+.PHONY : instructions/BRK.cpp.o
+
+instructions/BRK.i: instructions/BRK.cpp.i
+.PHONY : instructions/BRK.i
+
+# target to preprocess a source file
+instructions/BRK.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BRK.cpp.i
+.PHONY : instructions/BRK.cpp.i
+
+instructions/BRK.s: instructions/BRK.cpp.s
+.PHONY : instructions/BRK.s
+
+# target to generate assembly for a file
+instructions/BRK.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BRK.cpp.s
+.PHONY : instructions/BRK.cpp.s
+
+instructions/BVC.o: instructions/BVC.cpp.o
+.PHONY : instructions/BVC.o
+
+# target to build an object file
+instructions/BVC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BVC.cpp.o
+.PHONY : instructions/BVC.cpp.o
+
+instructions/BVC.i: instructions/BVC.cpp.i
+.PHONY : instructions/BVC.i
+
+# target to preprocess a source file
+instructions/BVC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BVC.cpp.i
+.PHONY : instructions/BVC.cpp.i
+
+instructions/BVC.s: instructions/BVC.cpp.s
+.PHONY : instructions/BVC.s
+
+# target to generate assembly for a file
+instructions/BVC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BVC.cpp.s
+.PHONY : instructions/BVC.cpp.s
+
+instructions/BVS.o: instructions/BVS.cpp.o
+.PHONY : instructions/BVS.o
+
+# target to build an object file
+instructions/BVS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BVS.cpp.o
+.PHONY : instructions/BVS.cpp.o
+
+instructions/BVS.i: instructions/BVS.cpp.i
+.PHONY : instructions/BVS.i
+
+# target to preprocess a source file
+instructions/BVS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BVS.cpp.i
+.PHONY : instructions/BVS.cpp.i
+
+instructions/BVS.s: instructions/BVS.cpp.s
+.PHONY : instructions/BVS.s
+
+# target to generate assembly for a file
+instructions/BVS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/BVS.cpp.s
+.PHONY : instructions/BVS.cpp.s
+
+instructions/CLC.o: instructions/CLC.cpp.o
+.PHONY : instructions/CLC.o
+
+# target to build an object file
+instructions/CLC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLC.cpp.o
+.PHONY : instructions/CLC.cpp.o
+
+instructions/CLC.i: instructions/CLC.cpp.i
+.PHONY : instructions/CLC.i
+
+# target to preprocess a source file
+instructions/CLC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLC.cpp.i
+.PHONY : instructions/CLC.cpp.i
+
+instructions/CLC.s: instructions/CLC.cpp.s
+.PHONY : instructions/CLC.s
+
+# target to generate assembly for a file
+instructions/CLC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLC.cpp.s
+.PHONY : instructions/CLC.cpp.s
+
+instructions/CLD.o: instructions/CLD.cpp.o
+.PHONY : instructions/CLD.o
+
+# target to build an object file
+instructions/CLD.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLD.cpp.o
+.PHONY : instructions/CLD.cpp.o
+
+instructions/CLD.i: instructions/CLD.cpp.i
+.PHONY : instructions/CLD.i
+
+# target to preprocess a source file
+instructions/CLD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLD.cpp.i
+.PHONY : instructions/CLD.cpp.i
+
+instructions/CLD.s: instructions/CLD.cpp.s
+.PHONY : instructions/CLD.s
+
+# target to generate assembly for a file
+instructions/CLD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLD.cpp.s
+.PHONY : instructions/CLD.cpp.s
+
+instructions/CLI.o: instructions/CLI.cpp.o
+.PHONY : instructions/CLI.o
+
+# target to build an object file
+instructions/CLI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLI.cpp.o
+.PHONY : instructions/CLI.cpp.o
+
+instructions/CLI.i: instructions/CLI.cpp.i
+.PHONY : instructions/CLI.i
+
+# target to preprocess a source file
+instructions/CLI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLI.cpp.i
+.PHONY : instructions/CLI.cpp.i
+
+instructions/CLI.s: instructions/CLI.cpp.s
+.PHONY : instructions/CLI.s
+
+# target to generate assembly for a file
+instructions/CLI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLI.cpp.s
+.PHONY : instructions/CLI.cpp.s
+
+instructions/CLV.o: instructions/CLV.cpp.o
+.PHONY : instructions/CLV.o
+
+# target to build an object file
+instructions/CLV.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLV.cpp.o
+.PHONY : instructions/CLV.cpp.o
+
+instructions/CLV.i: instructions/CLV.cpp.i
+.PHONY : instructions/CLV.i
+
+# target to preprocess a source file
+instructions/CLV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLV.cpp.i
+.PHONY : instructions/CLV.cpp.i
+
+instructions/CLV.s: instructions/CLV.cpp.s
+.PHONY : instructions/CLV.s
+
+# target to generate assembly for a file
+instructions/CLV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CLV.cpp.s
+.PHONY : instructions/CLV.cpp.s
+
+instructions/CMP.o: instructions/CMP.cpp.o
+.PHONY : instructions/CMP.o
+
+# target to build an object file
+instructions/CMP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CMP.cpp.o
+.PHONY : instructions/CMP.cpp.o
+
+instructions/CMP.i: instructions/CMP.cpp.i
+.PHONY : instructions/CMP.i
+
+# target to preprocess a source file
+instructions/CMP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CMP.cpp.i
+.PHONY : instructions/CMP.cpp.i
+
+instructions/CMP.s: instructions/CMP.cpp.s
+.PHONY : instructions/CMP.s
+
+# target to generate assembly for a file
+instructions/CMP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CMP.cpp.s
+.PHONY : instructions/CMP.cpp.s
+
+instructions/CPX.o: instructions/CPX.cpp.o
+.PHONY : instructions/CPX.o
+
+# target to build an object file
+instructions/CPX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CPX.cpp.o
+.PHONY : instructions/CPX.cpp.o
+
+instructions/CPX.i: instructions/CPX.cpp.i
+.PHONY : instructions/CPX.i
+
+# target to preprocess a source file
+instructions/CPX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CPX.cpp.i
+.PHONY : instructions/CPX.cpp.i
+
+instructions/CPX.s: instructions/CPX.cpp.s
+.PHONY : instructions/CPX.s
+
+# target to generate assembly for a file
+instructions/CPX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CPX.cpp.s
+.PHONY : instructions/CPX.cpp.s
+
+instructions/CPY.o: instructions/CPY.cpp.o
+.PHONY : instructions/CPY.o
+
+# target to build an object file
+instructions/CPY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CPY.cpp.o
+.PHONY : instructions/CPY.cpp.o
+
+instructions/CPY.i: instructions/CPY.cpp.i
+.PHONY : instructions/CPY.i
+
+# target to preprocess a source file
+instructions/CPY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CPY.cpp.i
+.PHONY : instructions/CPY.cpp.i
+
+instructions/CPY.s: instructions/CPY.cpp.s
+.PHONY : instructions/CPY.s
+
+# target to generate assembly for a file
+instructions/CPY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/CPY.cpp.s
+.PHONY : instructions/CPY.cpp.s
+
+instructions/DEC.o: instructions/DEC.cpp.o
+.PHONY : instructions/DEC.o
+
+# target to build an object file
+instructions/DEC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEC.cpp.o
+.PHONY : instructions/DEC.cpp.o
+
+instructions/DEC.i: instructions/DEC.cpp.i
+.PHONY : instructions/DEC.i
+
+# target to preprocess a source file
+instructions/DEC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEC.cpp.i
+.PHONY : instructions/DEC.cpp.i
+
+instructions/DEC.s: instructions/DEC.cpp.s
+.PHONY : instructions/DEC.s
+
+# target to generate assembly for a file
+instructions/DEC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEC.cpp.s
+.PHONY : instructions/DEC.cpp.s
+
+instructions/DEX.o: instructions/DEX.cpp.o
+.PHONY : instructions/DEX.o
+
+# target to build an object file
+instructions/DEX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEX.cpp.o
+.PHONY : instructions/DEX.cpp.o
+
+instructions/DEX.i: instructions/DEX.cpp.i
+.PHONY : instructions/DEX.i
+
+# target to preprocess a source file
+instructions/DEX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEX.cpp.i
+.PHONY : instructions/DEX.cpp.i
+
+instructions/DEX.s: instructions/DEX.cpp.s
+.PHONY : instructions/DEX.s
+
+# target to generate assembly for a file
+instructions/DEX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEX.cpp.s
+.PHONY : instructions/DEX.cpp.s
+
+instructions/DEY.o: instructions/DEY.cpp.o
+.PHONY : instructions/DEY.o
+
+# target to build an object file
+instructions/DEY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEY.cpp.o
+.PHONY : instructions/DEY.cpp.o
+
+instructions/DEY.i: instructions/DEY.cpp.i
+.PHONY : instructions/DEY.i
+
+# target to preprocess a source file
+instructions/DEY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEY.cpp.i
+.PHONY : instructions/DEY.cpp.i
+
+instructions/DEY.s: instructions/DEY.cpp.s
+.PHONY : instructions/DEY.s
+
+# target to generate assembly for a file
+instructions/DEY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/DEY.cpp.s
+.PHONY : instructions/DEY.cpp.s
+
+instructions/EOR.o: instructions/EOR.cpp.o
+.PHONY : instructions/EOR.o
+
+# target to build an object file
+instructions/EOR.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/EOR.cpp.o
+.PHONY : instructions/EOR.cpp.o
+
+instructions/EOR.i: instructions/EOR.cpp.i
+.PHONY : instructions/EOR.i
+
+# target to preprocess a source file
+instructions/EOR.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/EOR.cpp.i
+.PHONY : instructions/EOR.cpp.i
+
+instructions/EOR.s: instructions/EOR.cpp.s
+.PHONY : instructions/EOR.s
+
+# target to generate assembly for a file
+instructions/EOR.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/EOR.cpp.s
+.PHONY : instructions/EOR.cpp.s
+
+instructions/INC.o: instructions/INC.cpp.o
+.PHONY : instructions/INC.o
+
+# target to build an object file
+instructions/INC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INC.cpp.o
+.PHONY : instructions/INC.cpp.o
+
+instructions/INC.i: instructions/INC.cpp.i
+.PHONY : instructions/INC.i
+
+# target to preprocess a source file
+instructions/INC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INC.cpp.i
+.PHONY : instructions/INC.cpp.i
+
+instructions/INC.s: instructions/INC.cpp.s
+.PHONY : instructions/INC.s
+
+# target to generate assembly for a file
+instructions/INC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INC.cpp.s
+.PHONY : instructions/INC.cpp.s
+
+instructions/INX.o: instructions/INX.cpp.o
+.PHONY : instructions/INX.o
+
+# target to build an object file
+instructions/INX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INX.cpp.o
+.PHONY : instructions/INX.cpp.o
+
+instructions/INX.i: instructions/INX.cpp.i
+.PHONY : instructions/INX.i
+
+# target to preprocess a source file
+instructions/INX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INX.cpp.i
+.PHONY : instructions/INX.cpp.i
+
+instructions/INX.s: instructions/INX.cpp.s
+.PHONY : instructions/INX.s
+
+# target to generate assembly for a file
+instructions/INX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INX.cpp.s
+.PHONY : instructions/INX.cpp.s
+
+instructions/INY.o: instructions/INY.cpp.o
+.PHONY : instructions/INY.o
+
+# target to build an object file
+instructions/INY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INY.cpp.o
+.PHONY : instructions/INY.cpp.o
+
+instructions/INY.i: instructions/INY.cpp.i
+.PHONY : instructions/INY.i
+
+# target to preprocess a source file
+instructions/INY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INY.cpp.i
+.PHONY : instructions/INY.cpp.i
+
+instructions/INY.s: instructions/INY.cpp.s
+.PHONY : instructions/INY.s
+
+# target to generate assembly for a file
+instructions/INY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/INY.cpp.s
+.PHONY : instructions/INY.cpp.s
+
+instructions/JMP.o: instructions/JMP.cpp.o
+.PHONY : instructions/JMP.o
+
+# target to build an object file
+instructions/JMP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/JMP.cpp.o
+.PHONY : instructions/JMP.cpp.o
+
+instructions/JMP.i: instructions/JMP.cpp.i
+.PHONY : instructions/JMP.i
+
+# target to preprocess a source file
+instructions/JMP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/JMP.cpp.i
+.PHONY : instructions/JMP.cpp.i
+
+instructions/JMP.s: instructions/JMP.cpp.s
+.PHONY : instructions/JMP.s
+
+# target to generate assembly for a file
+instructions/JMP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/JMP.cpp.s
+.PHONY : instructions/JMP.cpp.s
+
+instructions/JSR.o: instructions/JSR.cpp.o
+.PHONY : instructions/JSR.o
+
+# target to build an object file
+instructions/JSR.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/JSR.cpp.o
+.PHONY : instructions/JSR.cpp.o
+
+instructions/JSR.i: instructions/JSR.cpp.i
+.PHONY : instructions/JSR.i
+
+# target to preprocess a source file
+instructions/JSR.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/JSR.cpp.i
+.PHONY : instructions/JSR.cpp.i
+
+instructions/JSR.s: instructions/JSR.cpp.s
+.PHONY : instructions/JSR.s
+
+# target to generate assembly for a file
+instructions/JSR.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/JSR.cpp.s
+.PHONY : instructions/JSR.cpp.s
+
 instructions/LDA.o: instructions/LDA.cpp.o
 .PHONY : instructions/LDA.o
 
@@ -201,6 +873,558 @@ instructions/LDA.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LDA.cpp.s
 .PHONY : instructions/LDA.cpp.s
 
+instructions/LDX.o: instructions/LDX.cpp.o
+.PHONY : instructions/LDX.o
+
+# target to build an object file
+instructions/LDX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LDX.cpp.o
+.PHONY : instructions/LDX.cpp.o
+
+instructions/LDX.i: instructions/LDX.cpp.i
+.PHONY : instructions/LDX.i
+
+# target to preprocess a source file
+instructions/LDX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LDX.cpp.i
+.PHONY : instructions/LDX.cpp.i
+
+instructions/LDX.s: instructions/LDX.cpp.s
+.PHONY : instructions/LDX.s
+
+# target to generate assembly for a file
+instructions/LDX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LDX.cpp.s
+.PHONY : instructions/LDX.cpp.s
+
+instructions/LDY.o: instructions/LDY.cpp.o
+.PHONY : instructions/LDY.o
+
+# target to build an object file
+instructions/LDY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LDY.cpp.o
+.PHONY : instructions/LDY.cpp.o
+
+instructions/LDY.i: instructions/LDY.cpp.i
+.PHONY : instructions/LDY.i
+
+# target to preprocess a source file
+instructions/LDY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LDY.cpp.i
+.PHONY : instructions/LDY.cpp.i
+
+instructions/LDY.s: instructions/LDY.cpp.s
+.PHONY : instructions/LDY.s
+
+# target to generate assembly for a file
+instructions/LDY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LDY.cpp.s
+.PHONY : instructions/LDY.cpp.s
+
+instructions/LSR.o: instructions/LSR.cpp.o
+.PHONY : instructions/LSR.o
+
+# target to build an object file
+instructions/LSR.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LSR.cpp.o
+.PHONY : instructions/LSR.cpp.o
+
+instructions/LSR.i: instructions/LSR.cpp.i
+.PHONY : instructions/LSR.i
+
+# target to preprocess a source file
+instructions/LSR.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LSR.cpp.i
+.PHONY : instructions/LSR.cpp.i
+
+instructions/LSR.s: instructions/LSR.cpp.s
+.PHONY : instructions/LSR.s
+
+# target to generate assembly for a file
+instructions/LSR.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/LSR.cpp.s
+.PHONY : instructions/LSR.cpp.s
+
+instructions/NOP.o: instructions/NOP.cpp.o
+.PHONY : instructions/NOP.o
+
+# target to build an object file
+instructions/NOP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/NOP.cpp.o
+.PHONY : instructions/NOP.cpp.o
+
+instructions/NOP.i: instructions/NOP.cpp.i
+.PHONY : instructions/NOP.i
+
+# target to preprocess a source file
+instructions/NOP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/NOP.cpp.i
+.PHONY : instructions/NOP.cpp.i
+
+instructions/NOP.s: instructions/NOP.cpp.s
+.PHONY : instructions/NOP.s
+
+# target to generate assembly for a file
+instructions/NOP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/NOP.cpp.s
+.PHONY : instructions/NOP.cpp.s
+
+instructions/ORA.o: instructions/ORA.cpp.o
+.PHONY : instructions/ORA.o
+
+# target to build an object file
+instructions/ORA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ORA.cpp.o
+.PHONY : instructions/ORA.cpp.o
+
+instructions/ORA.i: instructions/ORA.cpp.i
+.PHONY : instructions/ORA.i
+
+# target to preprocess a source file
+instructions/ORA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ORA.cpp.i
+.PHONY : instructions/ORA.cpp.i
+
+instructions/ORA.s: instructions/ORA.cpp.s
+.PHONY : instructions/ORA.s
+
+# target to generate assembly for a file
+instructions/ORA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ORA.cpp.s
+.PHONY : instructions/ORA.cpp.s
+
+instructions/PHA.o: instructions/PHA.cpp.o
+.PHONY : instructions/PHA.o
+
+# target to build an object file
+instructions/PHA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PHA.cpp.o
+.PHONY : instructions/PHA.cpp.o
+
+instructions/PHA.i: instructions/PHA.cpp.i
+.PHONY : instructions/PHA.i
+
+# target to preprocess a source file
+instructions/PHA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PHA.cpp.i
+.PHONY : instructions/PHA.cpp.i
+
+instructions/PHA.s: instructions/PHA.cpp.s
+.PHONY : instructions/PHA.s
+
+# target to generate assembly for a file
+instructions/PHA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PHA.cpp.s
+.PHONY : instructions/PHA.cpp.s
+
+instructions/PHP.o: instructions/PHP.cpp.o
+.PHONY : instructions/PHP.o
+
+# target to build an object file
+instructions/PHP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PHP.cpp.o
+.PHONY : instructions/PHP.cpp.o
+
+instructions/PHP.i: instructions/PHP.cpp.i
+.PHONY : instructions/PHP.i
+
+# target to preprocess a source file
+instructions/PHP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PHP.cpp.i
+.PHONY : instructions/PHP.cpp.i
+
+instructions/PHP.s: instructions/PHP.cpp.s
+.PHONY : instructions/PHP.s
+
+# target to generate assembly for a file
+instructions/PHP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PHP.cpp.s
+.PHONY : instructions/PHP.cpp.s
+
+instructions/PLA.o: instructions/PLA.cpp.o
+.PHONY : instructions/PLA.o
+
+# target to build an object file
+instructions/PLA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PLA.cpp.o
+.PHONY : instructions/PLA.cpp.o
+
+instructions/PLA.i: instructions/PLA.cpp.i
+.PHONY : instructions/PLA.i
+
+# target to preprocess a source file
+instructions/PLA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PLA.cpp.i
+.PHONY : instructions/PLA.cpp.i
+
+instructions/PLA.s: instructions/PLA.cpp.s
+.PHONY : instructions/PLA.s
+
+# target to generate assembly for a file
+instructions/PLA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PLA.cpp.s
+.PHONY : instructions/PLA.cpp.s
+
+instructions/PLP.o: instructions/PLP.cpp.o
+.PHONY : instructions/PLP.o
+
+# target to build an object file
+instructions/PLP.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PLP.cpp.o
+.PHONY : instructions/PLP.cpp.o
+
+instructions/PLP.i: instructions/PLP.cpp.i
+.PHONY : instructions/PLP.i
+
+# target to preprocess a source file
+instructions/PLP.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PLP.cpp.i
+.PHONY : instructions/PLP.cpp.i
+
+instructions/PLP.s: instructions/PLP.cpp.s
+.PHONY : instructions/PLP.s
+
+# target to generate assembly for a file
+instructions/PLP.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/PLP.cpp.s
+.PHONY : instructions/PLP.cpp.s
+
+instructions/ROL.o: instructions/ROL.cpp.o
+.PHONY : instructions/ROL.o
+
+# target to build an object file
+instructions/ROL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ROL.cpp.o
+.PHONY : instructions/ROL.cpp.o
+
+instructions/ROL.i: instructions/ROL.cpp.i
+.PHONY : instructions/ROL.i
+
+# target to preprocess a source file
+instructions/ROL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ROL.cpp.i
+.PHONY : instructions/ROL.cpp.i
+
+instructions/ROL.s: instructions/ROL.cpp.s
+.PHONY : instructions/ROL.s
+
+# target to generate assembly for a file
+instructions/ROL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ROL.cpp.s
+.PHONY : instructions/ROL.cpp.s
+
+instructions/ROR.o: instructions/ROR.cpp.o
+.PHONY : instructions/ROR.o
+
+# target to build an object file
+instructions/ROR.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ROR.cpp.o
+.PHONY : instructions/ROR.cpp.o
+
+instructions/ROR.i: instructions/ROR.cpp.i
+.PHONY : instructions/ROR.i
+
+# target to preprocess a source file
+instructions/ROR.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ROR.cpp.i
+.PHONY : instructions/ROR.cpp.i
+
+instructions/ROR.s: instructions/ROR.cpp.s
+.PHONY : instructions/ROR.s
+
+# target to generate assembly for a file
+instructions/ROR.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/ROR.cpp.s
+.PHONY : instructions/ROR.cpp.s
+
+instructions/RTI.o: instructions/RTI.cpp.o
+.PHONY : instructions/RTI.o
+
+# target to build an object file
+instructions/RTI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/RTI.cpp.o
+.PHONY : instructions/RTI.cpp.o
+
+instructions/RTI.i: instructions/RTI.cpp.i
+.PHONY : instructions/RTI.i
+
+# target to preprocess a source file
+instructions/RTI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/RTI.cpp.i
+.PHONY : instructions/RTI.cpp.i
+
+instructions/RTI.s: instructions/RTI.cpp.s
+.PHONY : instructions/RTI.s
+
+# target to generate assembly for a file
+instructions/RTI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/RTI.cpp.s
+.PHONY : instructions/RTI.cpp.s
+
+instructions/RTS.o: instructions/RTS.cpp.o
+.PHONY : instructions/RTS.o
+
+# target to build an object file
+instructions/RTS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/RTS.cpp.o
+.PHONY : instructions/RTS.cpp.o
+
+instructions/RTS.i: instructions/RTS.cpp.i
+.PHONY : instructions/RTS.i
+
+# target to preprocess a source file
+instructions/RTS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/RTS.cpp.i
+.PHONY : instructions/RTS.cpp.i
+
+instructions/RTS.s: instructions/RTS.cpp.s
+.PHONY : instructions/RTS.s
+
+# target to generate assembly for a file
+instructions/RTS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/RTS.cpp.s
+.PHONY : instructions/RTS.cpp.s
+
+instructions/SBC.o: instructions/SBC.cpp.o
+.PHONY : instructions/SBC.o
+
+# target to build an object file
+instructions/SBC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SBC.cpp.o
+.PHONY : instructions/SBC.cpp.o
+
+instructions/SBC.i: instructions/SBC.cpp.i
+.PHONY : instructions/SBC.i
+
+# target to preprocess a source file
+instructions/SBC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SBC.cpp.i
+.PHONY : instructions/SBC.cpp.i
+
+instructions/SBC.s: instructions/SBC.cpp.s
+.PHONY : instructions/SBC.s
+
+# target to generate assembly for a file
+instructions/SBC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SBC.cpp.s
+.PHONY : instructions/SBC.cpp.s
+
+instructions/SEC.o: instructions/SEC.cpp.o
+.PHONY : instructions/SEC.o
+
+# target to build an object file
+instructions/SEC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SEC.cpp.o
+.PHONY : instructions/SEC.cpp.o
+
+instructions/SEC.i: instructions/SEC.cpp.i
+.PHONY : instructions/SEC.i
+
+# target to preprocess a source file
+instructions/SEC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SEC.cpp.i
+.PHONY : instructions/SEC.cpp.i
+
+instructions/SEC.s: instructions/SEC.cpp.s
+.PHONY : instructions/SEC.s
+
+# target to generate assembly for a file
+instructions/SEC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SEC.cpp.s
+.PHONY : instructions/SEC.cpp.s
+
+instructions/SED.o: instructions/SED.cpp.o
+.PHONY : instructions/SED.o
+
+# target to build an object file
+instructions/SED.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SED.cpp.o
+.PHONY : instructions/SED.cpp.o
+
+instructions/SED.i: instructions/SED.cpp.i
+.PHONY : instructions/SED.i
+
+# target to preprocess a source file
+instructions/SED.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SED.cpp.i
+.PHONY : instructions/SED.cpp.i
+
+instructions/SED.s: instructions/SED.cpp.s
+.PHONY : instructions/SED.s
+
+# target to generate assembly for a file
+instructions/SED.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/SED.cpp.s
+.PHONY : instructions/SED.cpp.s
+
+instructions/STA.o: instructions/STA.cpp.o
+.PHONY : instructions/STA.o
+
+# target to build an object file
+instructions/STA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STA.cpp.o
+.PHONY : instructions/STA.cpp.o
+
+instructions/STA.i: instructions/STA.cpp.i
+.PHONY : instructions/STA.i
+
+# target to preprocess a source file
+instructions/STA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STA.cpp.i
+.PHONY : instructions/STA.cpp.i
+
+instructions/STA.s: instructions/STA.cpp.s
+.PHONY : instructions/STA.s
+
+# target to generate assembly for a file
+instructions/STA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STA.cpp.s
+.PHONY : instructions/STA.cpp.s
+
+instructions/STX.o: instructions/STX.cpp.o
+.PHONY : instructions/STX.o
+
+# target to build an object file
+instructions/STX.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STX.cpp.o
+.PHONY : instructions/STX.cpp.o
+
+instructions/STX.i: instructions/STX.cpp.i
+.PHONY : instructions/STX.i
+
+# target to preprocess a source file
+instructions/STX.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STX.cpp.i
+.PHONY : instructions/STX.cpp.i
+
+instructions/STX.s: instructions/STX.cpp.s
+.PHONY : instructions/STX.s
+
+# target to generate assembly for a file
+instructions/STX.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STX.cpp.s
+.PHONY : instructions/STX.cpp.s
+
+instructions/STY.o: instructions/STY.cpp.o
+.PHONY : instructions/STY.o
+
+# target to build an object file
+instructions/STY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STY.cpp.o
+.PHONY : instructions/STY.cpp.o
+
+instructions/STY.i: instructions/STY.cpp.i
+.PHONY : instructions/STY.i
+
+# target to preprocess a source file
+instructions/STY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STY.cpp.i
+.PHONY : instructions/STY.cpp.i
+
+instructions/STY.s: instructions/STY.cpp.s
+.PHONY : instructions/STY.s
+
+# target to generate assembly for a file
+instructions/STY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/STY.cpp.s
+.PHONY : instructions/STY.cpp.s
+
+instructions/TAY.o: instructions/TAY.cpp.o
+.PHONY : instructions/TAY.o
+
+# target to build an object file
+instructions/TAY.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TAY.cpp.o
+.PHONY : instructions/TAY.cpp.o
+
+instructions/TAY.i: instructions/TAY.cpp.i
+.PHONY : instructions/TAY.i
+
+# target to preprocess a source file
+instructions/TAY.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TAY.cpp.i
+.PHONY : instructions/TAY.cpp.i
+
+instructions/TAY.s: instructions/TAY.cpp.s
+.PHONY : instructions/TAY.s
+
+# target to generate assembly for a file
+instructions/TAY.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TAY.cpp.s
+.PHONY : instructions/TAY.cpp.s
+
+instructions/TXA.o: instructions/TXA.cpp.o
+.PHONY : instructions/TXA.o
+
+# target to build an object file
+instructions/TXA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TXA.cpp.o
+.PHONY : instructions/TXA.cpp.o
+
+instructions/TXA.i: instructions/TXA.cpp.i
+.PHONY : instructions/TXA.i
+
+# target to preprocess a source file
+instructions/TXA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TXA.cpp.i
+.PHONY : instructions/TXA.cpp.i
+
+instructions/TXA.s: instructions/TXA.cpp.s
+.PHONY : instructions/TXA.s
+
+# target to generate assembly for a file
+instructions/TXA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TXA.cpp.s
+.PHONY : instructions/TXA.cpp.s
+
+instructions/TXS.o: instructions/TXS.cpp.o
+.PHONY : instructions/TXS.o
+
+# target to build an object file
+instructions/TXS.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TXS.cpp.o
+.PHONY : instructions/TXS.cpp.o
+
+instructions/TXS.i: instructions/TXS.cpp.i
+.PHONY : instructions/TXS.i
+
+# target to preprocess a source file
+instructions/TXS.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TXS.cpp.i
+.PHONY : instructions/TXS.cpp.i
+
+instructions/TXS.s: instructions/TXS.cpp.s
+.PHONY : instructions/TXS.s
+
+# target to generate assembly for a file
+instructions/TXS.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TXS.cpp.s
+.PHONY : instructions/TXS.cpp.s
+
+instructions/TYA.o: instructions/TYA.cpp.o
+.PHONY : instructions/TYA.o
+
+# target to build an object file
+instructions/TYA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TYA.cpp.o
+.PHONY : instructions/TYA.cpp.o
+
+instructions/TYA.i: instructions/TYA.cpp.i
+.PHONY : instructions/TYA.i
+
+# target to preprocess a source file
+instructions/TYA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TYA.cpp.i
+.PHONY : instructions/TYA.cpp.i
+
+instructions/TYA.s: instructions/TYA.cpp.s
+.PHONY : instructions/TYA.s
+
+# target to generate assembly for a file
+instructions/TYA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/instructions/TYA.cpp.s
+.PHONY : instructions/TYA.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -210,15 +1434,168 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... emulator"
-	@echo "... cpu.o"
-	@echo "... cpu.i"
-	@echo "... cpu.s"
+	@echo "... CPU.o"
+	@echo "... CPU.i"
+	@echo "... CPU.s"
 	@echo "... instructions/ADC.o"
 	@echo "... instructions/ADC.i"
 	@echo "... instructions/ADC.s"
+	@echo "... instructions/AND.o"
+	@echo "... instructions/AND.i"
+	@echo "... instructions/AND.s"
+	@echo "... instructions/ASL.o"
+	@echo "... instructions/ASL.i"
+	@echo "... instructions/ASL.s"
+	@echo "... instructions/BCC.o"
+	@echo "... instructions/BCC.i"
+	@echo "... instructions/BCC.s"
+	@echo "... instructions/BCS.o"
+	@echo "... instructions/BCS.i"
+	@echo "... instructions/BCS.s"
+	@echo "... instructions/BEQ.o"
+	@echo "... instructions/BEQ.i"
+	@echo "... instructions/BEQ.s"
+	@echo "... instructions/BIT.o"
+	@echo "... instructions/BIT.i"
+	@echo "... instructions/BIT.s"
+	@echo "... instructions/BMI.o"
+	@echo "... instructions/BMI.i"
+	@echo "... instructions/BMI.s"
+	@echo "... instructions/BNE.o"
+	@echo "... instructions/BNE.i"
+	@echo "... instructions/BNE.s"
+	@echo "... instructions/BPL.o"
+	@echo "... instructions/BPL.i"
+	@echo "... instructions/BPL.s"
+	@echo "... instructions/BRK.o"
+	@echo "... instructions/BRK.i"
+	@echo "... instructions/BRK.s"
+	@echo "... instructions/BVC.o"
+	@echo "... instructions/BVC.i"
+	@echo "... instructions/BVC.s"
+	@echo "... instructions/BVS.o"
+	@echo "... instructions/BVS.i"
+	@echo "... instructions/BVS.s"
+	@echo "... instructions/CLC.o"
+	@echo "... instructions/CLC.i"
+	@echo "... instructions/CLC.s"
+	@echo "... instructions/CLD.o"
+	@echo "... instructions/CLD.i"
+	@echo "... instructions/CLD.s"
+	@echo "... instructions/CLI.o"
+	@echo "... instructions/CLI.i"
+	@echo "... instructions/CLI.s"
+	@echo "... instructions/CLV.o"
+	@echo "... instructions/CLV.i"
+	@echo "... instructions/CLV.s"
+	@echo "... instructions/CMP.o"
+	@echo "... instructions/CMP.i"
+	@echo "... instructions/CMP.s"
+	@echo "... instructions/CPX.o"
+	@echo "... instructions/CPX.i"
+	@echo "... instructions/CPX.s"
+	@echo "... instructions/CPY.o"
+	@echo "... instructions/CPY.i"
+	@echo "... instructions/CPY.s"
+	@echo "... instructions/DEC.o"
+	@echo "... instructions/DEC.i"
+	@echo "... instructions/DEC.s"
+	@echo "... instructions/DEX.o"
+	@echo "... instructions/DEX.i"
+	@echo "... instructions/DEX.s"
+	@echo "... instructions/DEY.o"
+	@echo "... instructions/DEY.i"
+	@echo "... instructions/DEY.s"
+	@echo "... instructions/EOR.o"
+	@echo "... instructions/EOR.i"
+	@echo "... instructions/EOR.s"
+	@echo "... instructions/INC.o"
+	@echo "... instructions/INC.i"
+	@echo "... instructions/INC.s"
+	@echo "... instructions/INX.o"
+	@echo "... instructions/INX.i"
+	@echo "... instructions/INX.s"
+	@echo "... instructions/INY.o"
+	@echo "... instructions/INY.i"
+	@echo "... instructions/INY.s"
+	@echo "... instructions/JMP.o"
+	@echo "... instructions/JMP.i"
+	@echo "... instructions/JMP.s"
+	@echo "... instructions/JSR.o"
+	@echo "... instructions/JSR.i"
+	@echo "... instructions/JSR.s"
 	@echo "... instructions/LDA.o"
 	@echo "... instructions/LDA.i"
 	@echo "... instructions/LDA.s"
+	@echo "... instructions/LDX.o"
+	@echo "... instructions/LDX.i"
+	@echo "... instructions/LDX.s"
+	@echo "... instructions/LDY.o"
+	@echo "... instructions/LDY.i"
+	@echo "... instructions/LDY.s"
+	@echo "... instructions/LSR.o"
+	@echo "... instructions/LSR.i"
+	@echo "... instructions/LSR.s"
+	@echo "... instructions/NOP.o"
+	@echo "... instructions/NOP.i"
+	@echo "... instructions/NOP.s"
+	@echo "... instructions/ORA.o"
+	@echo "... instructions/ORA.i"
+	@echo "... instructions/ORA.s"
+	@echo "... instructions/PHA.o"
+	@echo "... instructions/PHA.i"
+	@echo "... instructions/PHA.s"
+	@echo "... instructions/PHP.o"
+	@echo "... instructions/PHP.i"
+	@echo "... instructions/PHP.s"
+	@echo "... instructions/PLA.o"
+	@echo "... instructions/PLA.i"
+	@echo "... instructions/PLA.s"
+	@echo "... instructions/PLP.o"
+	@echo "... instructions/PLP.i"
+	@echo "... instructions/PLP.s"
+	@echo "... instructions/ROL.o"
+	@echo "... instructions/ROL.i"
+	@echo "... instructions/ROL.s"
+	@echo "... instructions/ROR.o"
+	@echo "... instructions/ROR.i"
+	@echo "... instructions/ROR.s"
+	@echo "... instructions/RTI.o"
+	@echo "... instructions/RTI.i"
+	@echo "... instructions/RTI.s"
+	@echo "... instructions/RTS.o"
+	@echo "... instructions/RTS.i"
+	@echo "... instructions/RTS.s"
+	@echo "... instructions/SBC.o"
+	@echo "... instructions/SBC.i"
+	@echo "... instructions/SBC.s"
+	@echo "... instructions/SEC.o"
+	@echo "... instructions/SEC.i"
+	@echo "... instructions/SEC.s"
+	@echo "... instructions/SED.o"
+	@echo "... instructions/SED.i"
+	@echo "... instructions/SED.s"
+	@echo "... instructions/STA.o"
+	@echo "... instructions/STA.i"
+	@echo "... instructions/STA.s"
+	@echo "... instructions/STX.o"
+	@echo "... instructions/STX.i"
+	@echo "... instructions/STX.s"
+	@echo "... instructions/STY.o"
+	@echo "... instructions/STY.i"
+	@echo "... instructions/STY.s"
+	@echo "... instructions/TAY.o"
+	@echo "... instructions/TAY.i"
+	@echo "... instructions/TAY.s"
+	@echo "... instructions/TXA.o"
+	@echo "... instructions/TXA.i"
+	@echo "... instructions/TXA.s"
+	@echo "... instructions/TXS.o"
+	@echo "... instructions/TXS.i"
+	@echo "... instructions/TXS.s"
+	@echo "... instructions/TYA.o"
+	@echo "... instructions/TYA.i"
+	@echo "... instructions/TYA.s"
 .PHONY : help
 
 

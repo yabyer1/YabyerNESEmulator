@@ -1,17 +1,19 @@
 cmake_minimum_required(VERSION 3.10)
 project(NES_Emulator)
 
-
 set(CMAKE_CXX_STANDARD 17)
-
 
 add_executable(emulator
     CPU.cpp
+    instructions/TAY.cpp
     instructions/LDA.cpp
+    instructions/LDX.cpp
+    instructions/LDY.cpp
     instructions/ADC.cpp
     instructions/AND.cpp
     instructions/ASL.cpp
     instructions/BCC.cpp
+    instructions/BMI.cpp
     instructions/BCS.cpp
     instructions/BEQ.cpp
     instructions/BIT.cpp
@@ -48,22 +50,15 @@ add_executable(emulator
     instructions/RTI.cpp
     instructions/RTS.cpp
     instructions/SBC.cpp
-    instructions/SEC.cpp
+    instructions/SEC.cpp  # Keep only one instance of SEC.cpp
     instructions/SED.cpp
-    instructions/SEI.cpp
     instructions/STA.cpp
     instructions/STX.cpp
     instructions/STY.cpp
-    instructions/TAX.cpp
-    instructions/TAY.cpp
-    instructions/TSX.cpp
     instructions/TXA.cpp
     instructions/TXS.cpp
     instructions/TYA.cpp
 )
 
-
 include_directories(${CMAKE_SOURCE_DIR}/instructions)
-
-
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wpedantic")

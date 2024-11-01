@@ -24,13 +24,13 @@ void BIT(uint8_t operand){ // This instructions is used to test if one or more b
     p &= ~0x40;
    }
 }
-void BITZeroPage(){ //opcode $24
+void BIT_ZeroPage(){ //opcode $24
     uint8_t address = memory[pc++];
     uint8_t operand = memory[address];
     BIT(operand);
     cycles +=3;
 }
-void BITAbsolute(){ //opcode $2C
+void BIT_Absolute(){ //opcode $2C
      uint16_t address = memory[pc++] | (memory[pc++] << 8);
     uint8_t operand = memory[address];
      BIT(operand);

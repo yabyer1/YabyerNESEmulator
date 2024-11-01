@@ -69,24 +69,38 @@ include CMakeFiles/emulator.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/emulator.dir/flags.make
 
-CMakeFiles/emulator.dir/cpu.cpp.o: CMakeFiles/emulator.dir/flags.make
-CMakeFiles/emulator.dir/cpu.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/cpu.cpp
-CMakeFiles/emulator.dir/cpu.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/emulator.dir/cpu.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/cpu.cpp.o -MF CMakeFiles/emulator.dir/cpu.cpp.o.d -o CMakeFiles/emulator.dir/cpu.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/cpu.cpp
+CMakeFiles/emulator.dir/CPU.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/CPU.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/CPU.cpp
+CMakeFiles/emulator.dir/CPU.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/emulator.dir/CPU.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/CPU.cpp.o -MF CMakeFiles/emulator.dir/CPU.cpp.o.d -o CMakeFiles/emulator.dir/CPU.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/CPU.cpp
 
-CMakeFiles/emulator.dir/cpu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/cpu.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/cpu.cpp > CMakeFiles/emulator.dir/cpu.cpp.i
+CMakeFiles/emulator.dir/CPU.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/CPU.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/CPU.cpp > CMakeFiles/emulator.dir/CPU.cpp.i
 
-CMakeFiles/emulator.dir/cpu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/cpu.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/cpu.cpp -o CMakeFiles/emulator.dir/cpu.cpp.s
+CMakeFiles/emulator.dir/CPU.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/CPU.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/CPU.cpp -o CMakeFiles/emulator.dir/CPU.cpp.s
+
+CMakeFiles/emulator.dir/instructions/TAY.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/TAY.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TAY.cpp
+CMakeFiles/emulator.dir/instructions/TAY.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/emulator.dir/instructions/TAY.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/TAY.cpp.o -MF CMakeFiles/emulator.dir/instructions/TAY.cpp.o.d -o CMakeFiles/emulator.dir/instructions/TAY.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TAY.cpp
+
+CMakeFiles/emulator.dir/instructions/TAY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/TAY.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TAY.cpp > CMakeFiles/emulator.dir/instructions/TAY.cpp.i
+
+CMakeFiles/emulator.dir/instructions/TAY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/TAY.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TAY.cpp -o CMakeFiles/emulator.dir/instructions/TAY.cpp.s
 
 CMakeFiles/emulator.dir/instructions/LDA.cpp.o: CMakeFiles/emulator.dir/flags.make
 CMakeFiles/emulator.dir/instructions/LDA.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDA.cpp
 CMakeFiles/emulator.dir/instructions/LDA.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/emulator.dir/instructions/LDA.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/emulator.dir/instructions/LDA.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/LDA.cpp.o -MF CMakeFiles/emulator.dir/instructions/LDA.cpp.o.d -o CMakeFiles/emulator.dir/instructions/LDA.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDA.cpp
 
 CMakeFiles/emulator.dir/instructions/LDA.cpp.i: cmake_force
@@ -97,10 +111,38 @@ CMakeFiles/emulator.dir/instructions/LDA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/LDA.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDA.cpp -o CMakeFiles/emulator.dir/instructions/LDA.cpp.s
 
+CMakeFiles/emulator.dir/instructions/LDX.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/LDX.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDX.cpp
+CMakeFiles/emulator.dir/instructions/LDX.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/emulator.dir/instructions/LDX.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/LDX.cpp.o -MF CMakeFiles/emulator.dir/instructions/LDX.cpp.o.d -o CMakeFiles/emulator.dir/instructions/LDX.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDX.cpp
+
+CMakeFiles/emulator.dir/instructions/LDX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/LDX.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDX.cpp > CMakeFiles/emulator.dir/instructions/LDX.cpp.i
+
+CMakeFiles/emulator.dir/instructions/LDX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/LDX.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDX.cpp -o CMakeFiles/emulator.dir/instructions/LDX.cpp.s
+
+CMakeFiles/emulator.dir/instructions/LDY.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/LDY.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDY.cpp
+CMakeFiles/emulator.dir/instructions/LDY.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/emulator.dir/instructions/LDY.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/LDY.cpp.o -MF CMakeFiles/emulator.dir/instructions/LDY.cpp.o.d -o CMakeFiles/emulator.dir/instructions/LDY.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDY.cpp
+
+CMakeFiles/emulator.dir/instructions/LDY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/LDY.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDY.cpp > CMakeFiles/emulator.dir/instructions/LDY.cpp.i
+
+CMakeFiles/emulator.dir/instructions/LDY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/LDY.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LDY.cpp -o CMakeFiles/emulator.dir/instructions/LDY.cpp.s
+
 CMakeFiles/emulator.dir/instructions/ADC.cpp.o: CMakeFiles/emulator.dir/flags.make
 CMakeFiles/emulator.dir/instructions/ADC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ADC.cpp
 CMakeFiles/emulator.dir/instructions/ADC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/emulator.dir/instructions/ADC.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/emulator.dir/instructions/ADC.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/ADC.cpp.o -MF CMakeFiles/emulator.dir/instructions/ADC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/ADC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ADC.cpp
 
 CMakeFiles/emulator.dir/instructions/ADC.cpp.i: cmake_force
@@ -111,21 +153,795 @@ CMakeFiles/emulator.dir/instructions/ADC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/ADC.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ADC.cpp -o CMakeFiles/emulator.dir/instructions/ADC.cpp.s
 
+CMakeFiles/emulator.dir/instructions/AND.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/AND.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/AND.cpp
+CMakeFiles/emulator.dir/instructions/AND.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/emulator.dir/instructions/AND.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/AND.cpp.o -MF CMakeFiles/emulator.dir/instructions/AND.cpp.o.d -o CMakeFiles/emulator.dir/instructions/AND.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/AND.cpp
+
+CMakeFiles/emulator.dir/instructions/AND.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/AND.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/AND.cpp > CMakeFiles/emulator.dir/instructions/AND.cpp.i
+
+CMakeFiles/emulator.dir/instructions/AND.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/AND.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/AND.cpp -o CMakeFiles/emulator.dir/instructions/AND.cpp.s
+
+CMakeFiles/emulator.dir/instructions/ASL.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/ASL.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ASL.cpp
+CMakeFiles/emulator.dir/instructions/ASL.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/emulator.dir/instructions/ASL.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/ASL.cpp.o -MF CMakeFiles/emulator.dir/instructions/ASL.cpp.o.d -o CMakeFiles/emulator.dir/instructions/ASL.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ASL.cpp
+
+CMakeFiles/emulator.dir/instructions/ASL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/ASL.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ASL.cpp > CMakeFiles/emulator.dir/instructions/ASL.cpp.i
+
+CMakeFiles/emulator.dir/instructions/ASL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/ASL.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ASL.cpp -o CMakeFiles/emulator.dir/instructions/ASL.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BCC.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BCC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCC.cpp
+CMakeFiles/emulator.dir/instructions/BCC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/emulator.dir/instructions/BCC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BCC.cpp.o -MF CMakeFiles/emulator.dir/instructions/BCC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BCC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCC.cpp
+
+CMakeFiles/emulator.dir/instructions/BCC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BCC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCC.cpp > CMakeFiles/emulator.dir/instructions/BCC.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BCC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BCC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCC.cpp -o CMakeFiles/emulator.dir/instructions/BCC.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BMI.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BMI.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BMI.cpp
+CMakeFiles/emulator.dir/instructions/BMI.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/emulator.dir/instructions/BMI.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BMI.cpp.o -MF CMakeFiles/emulator.dir/instructions/BMI.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BMI.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BMI.cpp
+
+CMakeFiles/emulator.dir/instructions/BMI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BMI.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BMI.cpp > CMakeFiles/emulator.dir/instructions/BMI.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BMI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BMI.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BMI.cpp -o CMakeFiles/emulator.dir/instructions/BMI.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BCS.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BCS.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCS.cpp
+CMakeFiles/emulator.dir/instructions/BCS.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/emulator.dir/instructions/BCS.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BCS.cpp.o -MF CMakeFiles/emulator.dir/instructions/BCS.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BCS.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCS.cpp
+
+CMakeFiles/emulator.dir/instructions/BCS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BCS.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCS.cpp > CMakeFiles/emulator.dir/instructions/BCS.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BCS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BCS.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BCS.cpp -o CMakeFiles/emulator.dir/instructions/BCS.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BEQ.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BEQ.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BEQ.cpp
+CMakeFiles/emulator.dir/instructions/BEQ.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/emulator.dir/instructions/BEQ.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BEQ.cpp.o -MF CMakeFiles/emulator.dir/instructions/BEQ.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BEQ.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BEQ.cpp
+
+CMakeFiles/emulator.dir/instructions/BEQ.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BEQ.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BEQ.cpp > CMakeFiles/emulator.dir/instructions/BEQ.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BEQ.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BEQ.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BEQ.cpp -o CMakeFiles/emulator.dir/instructions/BEQ.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BIT.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BIT.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BIT.cpp
+CMakeFiles/emulator.dir/instructions/BIT.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/emulator.dir/instructions/BIT.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BIT.cpp.o -MF CMakeFiles/emulator.dir/instructions/BIT.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BIT.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BIT.cpp
+
+CMakeFiles/emulator.dir/instructions/BIT.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BIT.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BIT.cpp > CMakeFiles/emulator.dir/instructions/BIT.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BIT.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BIT.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BIT.cpp -o CMakeFiles/emulator.dir/instructions/BIT.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BNE.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BNE.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BNE.cpp
+CMakeFiles/emulator.dir/instructions/BNE.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/emulator.dir/instructions/BNE.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BNE.cpp.o -MF CMakeFiles/emulator.dir/instructions/BNE.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BNE.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BNE.cpp
+
+CMakeFiles/emulator.dir/instructions/BNE.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BNE.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BNE.cpp > CMakeFiles/emulator.dir/instructions/BNE.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BNE.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BNE.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BNE.cpp -o CMakeFiles/emulator.dir/instructions/BNE.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BPL.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BPL.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BPL.cpp
+CMakeFiles/emulator.dir/instructions/BPL.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/emulator.dir/instructions/BPL.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BPL.cpp.o -MF CMakeFiles/emulator.dir/instructions/BPL.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BPL.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BPL.cpp
+
+CMakeFiles/emulator.dir/instructions/BPL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BPL.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BPL.cpp > CMakeFiles/emulator.dir/instructions/BPL.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BPL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BPL.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BPL.cpp -o CMakeFiles/emulator.dir/instructions/BPL.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BRK.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BRK.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BRK.cpp
+CMakeFiles/emulator.dir/instructions/BRK.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/emulator.dir/instructions/BRK.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BRK.cpp.o -MF CMakeFiles/emulator.dir/instructions/BRK.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BRK.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BRK.cpp
+
+CMakeFiles/emulator.dir/instructions/BRK.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BRK.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BRK.cpp > CMakeFiles/emulator.dir/instructions/BRK.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BRK.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BRK.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BRK.cpp -o CMakeFiles/emulator.dir/instructions/BRK.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BVC.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BVC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVC.cpp
+CMakeFiles/emulator.dir/instructions/BVC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/emulator.dir/instructions/BVC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BVC.cpp.o -MF CMakeFiles/emulator.dir/instructions/BVC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BVC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVC.cpp
+
+CMakeFiles/emulator.dir/instructions/BVC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BVC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVC.cpp > CMakeFiles/emulator.dir/instructions/BVC.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BVC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BVC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVC.cpp -o CMakeFiles/emulator.dir/instructions/BVC.cpp.s
+
+CMakeFiles/emulator.dir/instructions/BVS.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/BVS.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVS.cpp
+CMakeFiles/emulator.dir/instructions/BVS.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/emulator.dir/instructions/BVS.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/BVS.cpp.o -MF CMakeFiles/emulator.dir/instructions/BVS.cpp.o.d -o CMakeFiles/emulator.dir/instructions/BVS.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVS.cpp
+
+CMakeFiles/emulator.dir/instructions/BVS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/BVS.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVS.cpp > CMakeFiles/emulator.dir/instructions/BVS.cpp.i
+
+CMakeFiles/emulator.dir/instructions/BVS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/BVS.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/BVS.cpp -o CMakeFiles/emulator.dir/instructions/BVS.cpp.s
+
+CMakeFiles/emulator.dir/instructions/CLC.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/CLC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLC.cpp
+CMakeFiles/emulator.dir/instructions/CLC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/emulator.dir/instructions/CLC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/CLC.cpp.o -MF CMakeFiles/emulator.dir/instructions/CLC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/CLC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLC.cpp
+
+CMakeFiles/emulator.dir/instructions/CLC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/CLC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLC.cpp > CMakeFiles/emulator.dir/instructions/CLC.cpp.i
+
+CMakeFiles/emulator.dir/instructions/CLC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/CLC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLC.cpp -o CMakeFiles/emulator.dir/instructions/CLC.cpp.s
+
+CMakeFiles/emulator.dir/instructions/CLD.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/CLD.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLD.cpp
+CMakeFiles/emulator.dir/instructions/CLD.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/emulator.dir/instructions/CLD.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/CLD.cpp.o -MF CMakeFiles/emulator.dir/instructions/CLD.cpp.o.d -o CMakeFiles/emulator.dir/instructions/CLD.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLD.cpp
+
+CMakeFiles/emulator.dir/instructions/CLD.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/CLD.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLD.cpp > CMakeFiles/emulator.dir/instructions/CLD.cpp.i
+
+CMakeFiles/emulator.dir/instructions/CLD.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/CLD.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLD.cpp -o CMakeFiles/emulator.dir/instructions/CLD.cpp.s
+
+CMakeFiles/emulator.dir/instructions/CLI.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/CLI.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLI.cpp
+CMakeFiles/emulator.dir/instructions/CLI.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/emulator.dir/instructions/CLI.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/CLI.cpp.o -MF CMakeFiles/emulator.dir/instructions/CLI.cpp.o.d -o CMakeFiles/emulator.dir/instructions/CLI.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLI.cpp
+
+CMakeFiles/emulator.dir/instructions/CLI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/CLI.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLI.cpp > CMakeFiles/emulator.dir/instructions/CLI.cpp.i
+
+CMakeFiles/emulator.dir/instructions/CLI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/CLI.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLI.cpp -o CMakeFiles/emulator.dir/instructions/CLI.cpp.s
+
+CMakeFiles/emulator.dir/instructions/CLV.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/CLV.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLV.cpp
+CMakeFiles/emulator.dir/instructions/CLV.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/emulator.dir/instructions/CLV.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/CLV.cpp.o -MF CMakeFiles/emulator.dir/instructions/CLV.cpp.o.d -o CMakeFiles/emulator.dir/instructions/CLV.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLV.cpp
+
+CMakeFiles/emulator.dir/instructions/CLV.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/CLV.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLV.cpp > CMakeFiles/emulator.dir/instructions/CLV.cpp.i
+
+CMakeFiles/emulator.dir/instructions/CLV.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/CLV.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CLV.cpp -o CMakeFiles/emulator.dir/instructions/CLV.cpp.s
+
+CMakeFiles/emulator.dir/instructions/CMP.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/CMP.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CMP.cpp
+CMakeFiles/emulator.dir/instructions/CMP.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/emulator.dir/instructions/CMP.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/CMP.cpp.o -MF CMakeFiles/emulator.dir/instructions/CMP.cpp.o.d -o CMakeFiles/emulator.dir/instructions/CMP.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CMP.cpp
+
+CMakeFiles/emulator.dir/instructions/CMP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/CMP.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CMP.cpp > CMakeFiles/emulator.dir/instructions/CMP.cpp.i
+
+CMakeFiles/emulator.dir/instructions/CMP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/CMP.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CMP.cpp -o CMakeFiles/emulator.dir/instructions/CMP.cpp.s
+
+CMakeFiles/emulator.dir/instructions/CPX.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/CPX.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPX.cpp
+CMakeFiles/emulator.dir/instructions/CPX.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/emulator.dir/instructions/CPX.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/CPX.cpp.o -MF CMakeFiles/emulator.dir/instructions/CPX.cpp.o.d -o CMakeFiles/emulator.dir/instructions/CPX.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPX.cpp
+
+CMakeFiles/emulator.dir/instructions/CPX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/CPX.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPX.cpp > CMakeFiles/emulator.dir/instructions/CPX.cpp.i
+
+CMakeFiles/emulator.dir/instructions/CPX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/CPX.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPX.cpp -o CMakeFiles/emulator.dir/instructions/CPX.cpp.s
+
+CMakeFiles/emulator.dir/instructions/CPY.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/CPY.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPY.cpp
+CMakeFiles/emulator.dir/instructions/CPY.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/emulator.dir/instructions/CPY.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/CPY.cpp.o -MF CMakeFiles/emulator.dir/instructions/CPY.cpp.o.d -o CMakeFiles/emulator.dir/instructions/CPY.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPY.cpp
+
+CMakeFiles/emulator.dir/instructions/CPY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/CPY.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPY.cpp > CMakeFiles/emulator.dir/instructions/CPY.cpp.i
+
+CMakeFiles/emulator.dir/instructions/CPY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/CPY.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/CPY.cpp -o CMakeFiles/emulator.dir/instructions/CPY.cpp.s
+
+CMakeFiles/emulator.dir/instructions/DEC.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/DEC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEC.cpp
+CMakeFiles/emulator.dir/instructions/DEC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/emulator.dir/instructions/DEC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/DEC.cpp.o -MF CMakeFiles/emulator.dir/instructions/DEC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/DEC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEC.cpp
+
+CMakeFiles/emulator.dir/instructions/DEC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/DEC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEC.cpp > CMakeFiles/emulator.dir/instructions/DEC.cpp.i
+
+CMakeFiles/emulator.dir/instructions/DEC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/DEC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEC.cpp -o CMakeFiles/emulator.dir/instructions/DEC.cpp.s
+
+CMakeFiles/emulator.dir/instructions/DEX.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/DEX.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEX.cpp
+CMakeFiles/emulator.dir/instructions/DEX.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/emulator.dir/instructions/DEX.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/DEX.cpp.o -MF CMakeFiles/emulator.dir/instructions/DEX.cpp.o.d -o CMakeFiles/emulator.dir/instructions/DEX.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEX.cpp
+
+CMakeFiles/emulator.dir/instructions/DEX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/DEX.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEX.cpp > CMakeFiles/emulator.dir/instructions/DEX.cpp.i
+
+CMakeFiles/emulator.dir/instructions/DEX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/DEX.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEX.cpp -o CMakeFiles/emulator.dir/instructions/DEX.cpp.s
+
+CMakeFiles/emulator.dir/instructions/DEY.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/DEY.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEY.cpp
+CMakeFiles/emulator.dir/instructions/DEY.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/emulator.dir/instructions/DEY.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/DEY.cpp.o -MF CMakeFiles/emulator.dir/instructions/DEY.cpp.o.d -o CMakeFiles/emulator.dir/instructions/DEY.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEY.cpp
+
+CMakeFiles/emulator.dir/instructions/DEY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/DEY.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEY.cpp > CMakeFiles/emulator.dir/instructions/DEY.cpp.i
+
+CMakeFiles/emulator.dir/instructions/DEY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/DEY.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/DEY.cpp -o CMakeFiles/emulator.dir/instructions/DEY.cpp.s
+
+CMakeFiles/emulator.dir/instructions/EOR.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/EOR.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/EOR.cpp
+CMakeFiles/emulator.dir/instructions/EOR.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/emulator.dir/instructions/EOR.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/EOR.cpp.o -MF CMakeFiles/emulator.dir/instructions/EOR.cpp.o.d -o CMakeFiles/emulator.dir/instructions/EOR.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/EOR.cpp
+
+CMakeFiles/emulator.dir/instructions/EOR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/EOR.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/EOR.cpp > CMakeFiles/emulator.dir/instructions/EOR.cpp.i
+
+CMakeFiles/emulator.dir/instructions/EOR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/EOR.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/EOR.cpp -o CMakeFiles/emulator.dir/instructions/EOR.cpp.s
+
+CMakeFiles/emulator.dir/instructions/INC.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/INC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INC.cpp
+CMakeFiles/emulator.dir/instructions/INC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/emulator.dir/instructions/INC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/INC.cpp.o -MF CMakeFiles/emulator.dir/instructions/INC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/INC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INC.cpp
+
+CMakeFiles/emulator.dir/instructions/INC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/INC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INC.cpp > CMakeFiles/emulator.dir/instructions/INC.cpp.i
+
+CMakeFiles/emulator.dir/instructions/INC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/INC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INC.cpp -o CMakeFiles/emulator.dir/instructions/INC.cpp.s
+
+CMakeFiles/emulator.dir/instructions/INX.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/INX.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INX.cpp
+CMakeFiles/emulator.dir/instructions/INX.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/emulator.dir/instructions/INX.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/INX.cpp.o -MF CMakeFiles/emulator.dir/instructions/INX.cpp.o.d -o CMakeFiles/emulator.dir/instructions/INX.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INX.cpp
+
+CMakeFiles/emulator.dir/instructions/INX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/INX.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INX.cpp > CMakeFiles/emulator.dir/instructions/INX.cpp.i
+
+CMakeFiles/emulator.dir/instructions/INX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/INX.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INX.cpp -o CMakeFiles/emulator.dir/instructions/INX.cpp.s
+
+CMakeFiles/emulator.dir/instructions/INY.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/INY.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INY.cpp
+CMakeFiles/emulator.dir/instructions/INY.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/emulator.dir/instructions/INY.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/INY.cpp.o -MF CMakeFiles/emulator.dir/instructions/INY.cpp.o.d -o CMakeFiles/emulator.dir/instructions/INY.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INY.cpp
+
+CMakeFiles/emulator.dir/instructions/INY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/INY.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INY.cpp > CMakeFiles/emulator.dir/instructions/INY.cpp.i
+
+CMakeFiles/emulator.dir/instructions/INY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/INY.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/INY.cpp -o CMakeFiles/emulator.dir/instructions/INY.cpp.s
+
+CMakeFiles/emulator.dir/instructions/JMP.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/JMP.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JMP.cpp
+CMakeFiles/emulator.dir/instructions/JMP.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/emulator.dir/instructions/JMP.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/JMP.cpp.o -MF CMakeFiles/emulator.dir/instructions/JMP.cpp.o.d -o CMakeFiles/emulator.dir/instructions/JMP.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JMP.cpp
+
+CMakeFiles/emulator.dir/instructions/JMP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/JMP.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JMP.cpp > CMakeFiles/emulator.dir/instructions/JMP.cpp.i
+
+CMakeFiles/emulator.dir/instructions/JMP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/JMP.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JMP.cpp -o CMakeFiles/emulator.dir/instructions/JMP.cpp.s
+
+CMakeFiles/emulator.dir/instructions/JSR.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/JSR.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JSR.cpp
+CMakeFiles/emulator.dir/instructions/JSR.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/emulator.dir/instructions/JSR.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/JSR.cpp.o -MF CMakeFiles/emulator.dir/instructions/JSR.cpp.o.d -o CMakeFiles/emulator.dir/instructions/JSR.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JSR.cpp
+
+CMakeFiles/emulator.dir/instructions/JSR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/JSR.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JSR.cpp > CMakeFiles/emulator.dir/instructions/JSR.cpp.i
+
+CMakeFiles/emulator.dir/instructions/JSR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/JSR.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/JSR.cpp -o CMakeFiles/emulator.dir/instructions/JSR.cpp.s
+
+CMakeFiles/emulator.dir/instructions/LSR.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/LSR.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LSR.cpp
+CMakeFiles/emulator.dir/instructions/LSR.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/emulator.dir/instructions/LSR.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/LSR.cpp.o -MF CMakeFiles/emulator.dir/instructions/LSR.cpp.o.d -o CMakeFiles/emulator.dir/instructions/LSR.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LSR.cpp
+
+CMakeFiles/emulator.dir/instructions/LSR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/LSR.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LSR.cpp > CMakeFiles/emulator.dir/instructions/LSR.cpp.i
+
+CMakeFiles/emulator.dir/instructions/LSR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/LSR.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/LSR.cpp -o CMakeFiles/emulator.dir/instructions/LSR.cpp.s
+
+CMakeFiles/emulator.dir/instructions/NOP.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/NOP.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/NOP.cpp
+CMakeFiles/emulator.dir/instructions/NOP.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/emulator.dir/instructions/NOP.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/NOP.cpp.o -MF CMakeFiles/emulator.dir/instructions/NOP.cpp.o.d -o CMakeFiles/emulator.dir/instructions/NOP.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/NOP.cpp
+
+CMakeFiles/emulator.dir/instructions/NOP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/NOP.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/NOP.cpp > CMakeFiles/emulator.dir/instructions/NOP.cpp.i
+
+CMakeFiles/emulator.dir/instructions/NOP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/NOP.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/NOP.cpp -o CMakeFiles/emulator.dir/instructions/NOP.cpp.s
+
+CMakeFiles/emulator.dir/instructions/ORA.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/ORA.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ORA.cpp
+CMakeFiles/emulator.dir/instructions/ORA.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/emulator.dir/instructions/ORA.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/ORA.cpp.o -MF CMakeFiles/emulator.dir/instructions/ORA.cpp.o.d -o CMakeFiles/emulator.dir/instructions/ORA.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ORA.cpp
+
+CMakeFiles/emulator.dir/instructions/ORA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/ORA.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ORA.cpp > CMakeFiles/emulator.dir/instructions/ORA.cpp.i
+
+CMakeFiles/emulator.dir/instructions/ORA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/ORA.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ORA.cpp -o CMakeFiles/emulator.dir/instructions/ORA.cpp.s
+
+CMakeFiles/emulator.dir/instructions/PHA.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/PHA.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHA.cpp
+CMakeFiles/emulator.dir/instructions/PHA.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/emulator.dir/instructions/PHA.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/PHA.cpp.o -MF CMakeFiles/emulator.dir/instructions/PHA.cpp.o.d -o CMakeFiles/emulator.dir/instructions/PHA.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHA.cpp
+
+CMakeFiles/emulator.dir/instructions/PHA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/PHA.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHA.cpp > CMakeFiles/emulator.dir/instructions/PHA.cpp.i
+
+CMakeFiles/emulator.dir/instructions/PHA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/PHA.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHA.cpp -o CMakeFiles/emulator.dir/instructions/PHA.cpp.s
+
+CMakeFiles/emulator.dir/instructions/PHP.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/PHP.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHP.cpp
+CMakeFiles/emulator.dir/instructions/PHP.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/emulator.dir/instructions/PHP.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/PHP.cpp.o -MF CMakeFiles/emulator.dir/instructions/PHP.cpp.o.d -o CMakeFiles/emulator.dir/instructions/PHP.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHP.cpp
+
+CMakeFiles/emulator.dir/instructions/PHP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/PHP.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHP.cpp > CMakeFiles/emulator.dir/instructions/PHP.cpp.i
+
+CMakeFiles/emulator.dir/instructions/PHP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/PHP.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PHP.cpp -o CMakeFiles/emulator.dir/instructions/PHP.cpp.s
+
+CMakeFiles/emulator.dir/instructions/PLA.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/PLA.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLA.cpp
+CMakeFiles/emulator.dir/instructions/PLA.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/emulator.dir/instructions/PLA.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/PLA.cpp.o -MF CMakeFiles/emulator.dir/instructions/PLA.cpp.o.d -o CMakeFiles/emulator.dir/instructions/PLA.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLA.cpp
+
+CMakeFiles/emulator.dir/instructions/PLA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/PLA.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLA.cpp > CMakeFiles/emulator.dir/instructions/PLA.cpp.i
+
+CMakeFiles/emulator.dir/instructions/PLA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/PLA.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLA.cpp -o CMakeFiles/emulator.dir/instructions/PLA.cpp.s
+
+CMakeFiles/emulator.dir/instructions/PLP.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/PLP.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLP.cpp
+CMakeFiles/emulator.dir/instructions/PLP.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/emulator.dir/instructions/PLP.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/PLP.cpp.o -MF CMakeFiles/emulator.dir/instructions/PLP.cpp.o.d -o CMakeFiles/emulator.dir/instructions/PLP.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLP.cpp
+
+CMakeFiles/emulator.dir/instructions/PLP.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/PLP.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLP.cpp > CMakeFiles/emulator.dir/instructions/PLP.cpp.i
+
+CMakeFiles/emulator.dir/instructions/PLP.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/PLP.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/PLP.cpp -o CMakeFiles/emulator.dir/instructions/PLP.cpp.s
+
+CMakeFiles/emulator.dir/instructions/ROL.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/ROL.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROL.cpp
+CMakeFiles/emulator.dir/instructions/ROL.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/emulator.dir/instructions/ROL.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/ROL.cpp.o -MF CMakeFiles/emulator.dir/instructions/ROL.cpp.o.d -o CMakeFiles/emulator.dir/instructions/ROL.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROL.cpp
+
+CMakeFiles/emulator.dir/instructions/ROL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/ROL.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROL.cpp > CMakeFiles/emulator.dir/instructions/ROL.cpp.i
+
+CMakeFiles/emulator.dir/instructions/ROL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/ROL.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROL.cpp -o CMakeFiles/emulator.dir/instructions/ROL.cpp.s
+
+CMakeFiles/emulator.dir/instructions/ROR.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/ROR.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROR.cpp
+CMakeFiles/emulator.dir/instructions/ROR.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/emulator.dir/instructions/ROR.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/ROR.cpp.o -MF CMakeFiles/emulator.dir/instructions/ROR.cpp.o.d -o CMakeFiles/emulator.dir/instructions/ROR.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROR.cpp
+
+CMakeFiles/emulator.dir/instructions/ROR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/ROR.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROR.cpp > CMakeFiles/emulator.dir/instructions/ROR.cpp.i
+
+CMakeFiles/emulator.dir/instructions/ROR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/ROR.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/ROR.cpp -o CMakeFiles/emulator.dir/instructions/ROR.cpp.s
+
+CMakeFiles/emulator.dir/instructions/RTI.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/RTI.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTI.cpp
+CMakeFiles/emulator.dir/instructions/RTI.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/emulator.dir/instructions/RTI.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/RTI.cpp.o -MF CMakeFiles/emulator.dir/instructions/RTI.cpp.o.d -o CMakeFiles/emulator.dir/instructions/RTI.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTI.cpp
+
+CMakeFiles/emulator.dir/instructions/RTI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/RTI.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTI.cpp > CMakeFiles/emulator.dir/instructions/RTI.cpp.i
+
+CMakeFiles/emulator.dir/instructions/RTI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/RTI.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTI.cpp -o CMakeFiles/emulator.dir/instructions/RTI.cpp.s
+
+CMakeFiles/emulator.dir/instructions/RTS.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/RTS.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTS.cpp
+CMakeFiles/emulator.dir/instructions/RTS.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/emulator.dir/instructions/RTS.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/RTS.cpp.o -MF CMakeFiles/emulator.dir/instructions/RTS.cpp.o.d -o CMakeFiles/emulator.dir/instructions/RTS.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTS.cpp
+
+CMakeFiles/emulator.dir/instructions/RTS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/RTS.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTS.cpp > CMakeFiles/emulator.dir/instructions/RTS.cpp.i
+
+CMakeFiles/emulator.dir/instructions/RTS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/RTS.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/RTS.cpp -o CMakeFiles/emulator.dir/instructions/RTS.cpp.s
+
+CMakeFiles/emulator.dir/instructions/SBC.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/SBC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SBC.cpp
+CMakeFiles/emulator.dir/instructions/SBC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/emulator.dir/instructions/SBC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/SBC.cpp.o -MF CMakeFiles/emulator.dir/instructions/SBC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/SBC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SBC.cpp
+
+CMakeFiles/emulator.dir/instructions/SBC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/SBC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SBC.cpp > CMakeFiles/emulator.dir/instructions/SBC.cpp.i
+
+CMakeFiles/emulator.dir/instructions/SBC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/SBC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SBC.cpp -o CMakeFiles/emulator.dir/instructions/SBC.cpp.s
+
+CMakeFiles/emulator.dir/instructions/SEC.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/SEC.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SEC.cpp
+CMakeFiles/emulator.dir/instructions/SEC.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/emulator.dir/instructions/SEC.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/SEC.cpp.o -MF CMakeFiles/emulator.dir/instructions/SEC.cpp.o.d -o CMakeFiles/emulator.dir/instructions/SEC.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SEC.cpp
+
+CMakeFiles/emulator.dir/instructions/SEC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/SEC.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SEC.cpp > CMakeFiles/emulator.dir/instructions/SEC.cpp.i
+
+CMakeFiles/emulator.dir/instructions/SEC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/SEC.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SEC.cpp -o CMakeFiles/emulator.dir/instructions/SEC.cpp.s
+
+CMakeFiles/emulator.dir/instructions/SED.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/SED.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SED.cpp
+CMakeFiles/emulator.dir/instructions/SED.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/emulator.dir/instructions/SED.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/SED.cpp.o -MF CMakeFiles/emulator.dir/instructions/SED.cpp.o.d -o CMakeFiles/emulator.dir/instructions/SED.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SED.cpp
+
+CMakeFiles/emulator.dir/instructions/SED.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/SED.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SED.cpp > CMakeFiles/emulator.dir/instructions/SED.cpp.i
+
+CMakeFiles/emulator.dir/instructions/SED.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/SED.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/SED.cpp -o CMakeFiles/emulator.dir/instructions/SED.cpp.s
+
+CMakeFiles/emulator.dir/instructions/STA.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/STA.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STA.cpp
+CMakeFiles/emulator.dir/instructions/STA.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/emulator.dir/instructions/STA.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/STA.cpp.o -MF CMakeFiles/emulator.dir/instructions/STA.cpp.o.d -o CMakeFiles/emulator.dir/instructions/STA.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STA.cpp
+
+CMakeFiles/emulator.dir/instructions/STA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/STA.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STA.cpp > CMakeFiles/emulator.dir/instructions/STA.cpp.i
+
+CMakeFiles/emulator.dir/instructions/STA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/STA.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STA.cpp -o CMakeFiles/emulator.dir/instructions/STA.cpp.s
+
+CMakeFiles/emulator.dir/instructions/STX.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/STX.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STX.cpp
+CMakeFiles/emulator.dir/instructions/STX.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/emulator.dir/instructions/STX.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/STX.cpp.o -MF CMakeFiles/emulator.dir/instructions/STX.cpp.o.d -o CMakeFiles/emulator.dir/instructions/STX.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STX.cpp
+
+CMakeFiles/emulator.dir/instructions/STX.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/STX.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STX.cpp > CMakeFiles/emulator.dir/instructions/STX.cpp.i
+
+CMakeFiles/emulator.dir/instructions/STX.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/STX.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STX.cpp -o CMakeFiles/emulator.dir/instructions/STX.cpp.s
+
+CMakeFiles/emulator.dir/instructions/STY.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/STY.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STY.cpp
+CMakeFiles/emulator.dir/instructions/STY.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/emulator.dir/instructions/STY.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/STY.cpp.o -MF CMakeFiles/emulator.dir/instructions/STY.cpp.o.d -o CMakeFiles/emulator.dir/instructions/STY.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STY.cpp
+
+CMakeFiles/emulator.dir/instructions/STY.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/STY.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STY.cpp > CMakeFiles/emulator.dir/instructions/STY.cpp.i
+
+CMakeFiles/emulator.dir/instructions/STY.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/STY.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/STY.cpp -o CMakeFiles/emulator.dir/instructions/STY.cpp.s
+
+CMakeFiles/emulator.dir/instructions/TXA.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/TXA.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXA.cpp
+CMakeFiles/emulator.dir/instructions/TXA.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/emulator.dir/instructions/TXA.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/TXA.cpp.o -MF CMakeFiles/emulator.dir/instructions/TXA.cpp.o.d -o CMakeFiles/emulator.dir/instructions/TXA.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXA.cpp
+
+CMakeFiles/emulator.dir/instructions/TXA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/TXA.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXA.cpp > CMakeFiles/emulator.dir/instructions/TXA.cpp.i
+
+CMakeFiles/emulator.dir/instructions/TXA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/TXA.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXA.cpp -o CMakeFiles/emulator.dir/instructions/TXA.cpp.s
+
+CMakeFiles/emulator.dir/instructions/TXS.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/TXS.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXS.cpp
+CMakeFiles/emulator.dir/instructions/TXS.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/emulator.dir/instructions/TXS.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/TXS.cpp.o -MF CMakeFiles/emulator.dir/instructions/TXS.cpp.o.d -o CMakeFiles/emulator.dir/instructions/TXS.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXS.cpp
+
+CMakeFiles/emulator.dir/instructions/TXS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/TXS.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXS.cpp > CMakeFiles/emulator.dir/instructions/TXS.cpp.i
+
+CMakeFiles/emulator.dir/instructions/TXS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/TXS.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TXS.cpp -o CMakeFiles/emulator.dir/instructions/TXS.cpp.s
+
+CMakeFiles/emulator.dir/instructions/TYA.cpp.o: CMakeFiles/emulator.dir/flags.make
+CMakeFiles/emulator.dir/instructions/TYA.cpp.o: /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TYA.cpp
+CMakeFiles/emulator.dir/instructions/TYA.cpp.o: CMakeFiles/emulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/emulator.dir/instructions/TYA.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/emulator.dir/instructions/TYA.cpp.o -MF CMakeFiles/emulator.dir/instructions/TYA.cpp.o.d -o CMakeFiles/emulator.dir/instructions/TYA.cpp.o -c /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TYA.cpp
+
+CMakeFiles/emulator.dir/instructions/TYA.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/emulator.dir/instructions/TYA.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TYA.cpp > CMakeFiles/emulator.dir/instructions/TYA.cpp.i
+
+CMakeFiles/emulator.dir/instructions/TYA.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/emulator.dir/instructions/TYA.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/instructions/TYA.cpp -o CMakeFiles/emulator.dir/instructions/TYA.cpp.s
+
 # Object files for target emulator
 emulator_OBJECTS = \
-"CMakeFiles/emulator.dir/cpu.cpp.o" \
+"CMakeFiles/emulator.dir/CPU.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/TAY.cpp.o" \
 "CMakeFiles/emulator.dir/instructions/LDA.cpp.o" \
-"CMakeFiles/emulator.dir/instructions/ADC.cpp.o"
+"CMakeFiles/emulator.dir/instructions/LDX.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/LDY.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/ADC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/AND.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/ASL.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BCC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BMI.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BCS.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BEQ.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BIT.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BNE.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BPL.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BRK.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BVC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/BVS.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/CLC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/CLD.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/CLI.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/CLV.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/CMP.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/CPX.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/CPY.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/DEC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/DEX.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/DEY.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/EOR.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/INC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/INX.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/INY.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/JMP.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/JSR.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/LSR.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/NOP.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/ORA.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/PHA.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/PHP.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/PLA.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/PLP.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/ROL.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/ROR.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/RTI.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/RTS.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/SBC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/SEC.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/SED.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/STA.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/STX.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/STY.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/TXA.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/TXS.cpp.o" \
+"CMakeFiles/emulator.dir/instructions/TYA.cpp.o"
 
 # External object files for target emulator
 emulator_EXTERNAL_OBJECTS =
 
-emulator: CMakeFiles/emulator.dir/cpu.cpp.o
+emulator: CMakeFiles/emulator.dir/CPU.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/TAY.cpp.o
 emulator: CMakeFiles/emulator.dir/instructions/LDA.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/LDX.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/LDY.cpp.o
 emulator: CMakeFiles/emulator.dir/instructions/ADC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/AND.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/ASL.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BCC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BMI.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BCS.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BEQ.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BIT.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BNE.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BPL.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BRK.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BVC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/BVS.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/CLC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/CLD.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/CLI.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/CLV.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/CMP.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/CPX.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/CPY.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/DEC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/DEX.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/DEY.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/EOR.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/INC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/INX.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/INY.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/JMP.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/JSR.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/LSR.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/NOP.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/ORA.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/PHA.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/PHP.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/PLA.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/PLP.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/ROL.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/ROR.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/RTI.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/RTS.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/SBC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/SEC.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/SED.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/STA.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/STX.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/STY.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/TXA.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/TXS.cpp.o
+emulator: CMakeFiles/emulator.dir/instructions/TYA.cpp.o
 emulator: CMakeFiles/emulator.dir/build.make
 emulator: CMakeFiles/emulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable emulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ganapathynagasubramaniam/Desktop/YabyerEmulation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Linking CXX executable emulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/emulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
