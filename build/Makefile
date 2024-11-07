@@ -129,6 +129,30 @@ emulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/build
 .PHONY : emulator/fast
 
+Bus.o: Bus.cpp.o
+.PHONY : Bus.o
+
+# target to build an object file
+Bus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/Bus.cpp.o
+.PHONY : Bus.cpp.o
+
+Bus.i: Bus.cpp.i
+.PHONY : Bus.i
+
+# target to preprocess a source file
+Bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/Bus.cpp.i
+.PHONY : Bus.cpp.i
+
+Bus.s: Bus.cpp.s
+.PHONY : Bus.s
+
+# target to generate assembly for a file
+Bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/emulator.dir/build.make CMakeFiles/emulator.dir/Bus.cpp.s
+.PHONY : Bus.cpp.s
+
 CPU.o: CPU.cpp.o
 .PHONY : CPU.o
 
@@ -1434,6 +1458,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... emulator"
+	@echo "... Bus.o"
+	@echo "... Bus.i"
+	@echo "... Bus.s"
 	@echo "... CPU.o"
 	@echo "... CPU.i"
 	@echo "... CPU.s"

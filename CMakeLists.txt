@@ -50,7 +50,7 @@ add_executable(emulator
     instructions/RTI.cpp
     instructions/RTS.cpp
     instructions/SBC.cpp
-    instructions/SEC.cpp  # Keep only one instance of SEC.cpp
+    instructions/SEC.cpp 
     instructions/SED.cpp
     instructions/STA.cpp
     instructions/STX.cpp
@@ -58,6 +58,8 @@ add_executable(emulator
     instructions/TXA.cpp
     instructions/TXS.cpp
     instructions/TYA.cpp
+    Bus.cpp
+    Bus.h
 )
 
 include_directories(${CMAKE_SOURCE_DIR}/instructions)
